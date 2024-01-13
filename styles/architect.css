@@ -167,7 +167,7 @@ div img {
   margin-top: 40px;
   background-image: url('/images/architect.png');
   background-repeat: no-repeat;
-  margin-right: 150px;
+  margin-right: 100px;
   background-position: right;
   background-size: contain;
 
@@ -201,6 +201,64 @@ div img {
 .div-3 .btn-primary {
   /* justify-content: center; */
   align-items: center;
-  margin-left: 550px;
+  margin-left: 500px;
   padding: 40px;
+}
+
+/* div-4 */
+.div-4 h1 {
+  margin-left: 60px;
+  margin-top: 40px;
+  color: var(--Dark-01, #131313);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.div-4 p {
+  color: var(--Dark-03, #727272);
+  font-family: Work Sans;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-left: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+/* div-5 */
+/* .div-5{
+  display: flex;
+} */
+.section-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.section-3 img {
+  height: 40px;
+}
+
+.section-3 h1 {
+  color: var(--Dark-02, #424242);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  margin-top: 10px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.section-3 p {
+  color: var(--Dark-03, #727272);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
